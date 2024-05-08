@@ -1,0 +1,371 @@
+@charset "utf-8"!;
+/* Body Styles */
+body {
+    font-family: 'Fredoka', 'Open Sans';
+}
+ h1{
+  font-family: Fredoka!important;
+  font-weight: 400;
+  font-size:2.188rem;
+  font-style: normal;
+}
+h2{
+  font-family: Fredoka!important;
+  font-size: 1.563rem;
+  font-style: normal; 
+}
+
+p {
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    text-align: left;
+}
+
+.text {
+    color: white;
+}
+
+/* Styling for the heading "Our Testimonies" */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Styling for the testimonial headings */
+h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:30px;
+}
+
+.img {
+    display: block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*navigation */
+.navbar {
+    background-color: #008001; /* Set the background color */
+}
+
+/* Change hover color for dropdown links */
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: #9ABC07;
+}
+
+.navbar .nav-link:visited {
+    color: #008001; /* Change to your desired color */
+}
+
+/* Set hover color for navigation links */
+.navbar .nav-link:hover {
+    color: #9ABC07; /* Hover color */
+}
+
+/* Set color for active navigation link */
+.navbar .nav-link.active {
+    color: #9ABC07; /* Active link color */
+}
+
+/* Header Styles */
+.bg-image {
+    background-size: cover;
+}
+
+.bg-image .text-white {
+    padding: 50px;
+}
+
+.bg-image h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bg-image p {
+    font-size: 18px;
+}
+
+/* Header Button */
+.btn-learn-more-about {
+    background-color: #008001;
+    color: #F5F3EC;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    text-decoration: none; /* Remove default underline */
+}
+
+.btn-learn-more-about:hover {
+    background-color: #9ABC07;
+    color: #008001;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline when hovered */
+}
+
+/* Mission Section Styles */
+.mission-section {
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.mission-section h1 {
+    font-size: 32px;
+}
+
+.mission-section p {
+    font-size: 18px;
+}
+
+/* Classes Section Styles */
+.classes-section {
+    padding: 50px 0;
+}
+
+.classes-section h1 {
+    margin-bottom: 30px;
+}
+
+.classes-section .show-column {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.show-column1 img {
+    max-width: 450px;
+    height: 300px;
+    border-radius: 10px;
+}
+/*Our classes Section*/
+
+.bg-faded{
+    background-color:whitesmoke;
+}
+.show-column {
+            color: #008001;
+            text-align: center;
+}
+.show-column h2{
+    padding-bottom:30px;
+}
+.show-column h3{
+    padding-bottom: 20px;
+}
+
+.show-column img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.show-column h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-learn-more-classes {
+    background-color: #008001;
+    color: #F5F3EC;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    text-decoration: none; /* Remove default underline */
+}
+
+.btn-learn-more-classes:hover {
+    background-color: #9ABC07;
+    color: #008001;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline when hovered */
+}
+
+.btn-learn-more-cart {
+    background-color: #008001;
+    color: #F5F3EC;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    text-decoration: none; /* Remove default underline */
+}
+
+.btn-learn-more-cart:hover {
+    background-color: #9ABC07;
+    color: #008001;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline when hovered */
+}
+
+
+/* Testimonies */
+.container-fluid {
+    padding: 20px;
+}
+
+/* Styling for each testimony column */
+
+.show-column1 {
+color: black;
+text-align: center;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 1px;
+    text-align: center !important;
+}
+
+/* Styling for the "Testimonials" button */
+/* Styling for the "Testimonials" button */
+.btn-learn-more-reviews {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008001;
+    color: #F5F3EC;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Combine transition properties */
+    font-size: 16px;  
+}
+
+.btn-learn-more-reviews:hover {
+    background-color: #9ABC07;
+    color: #008001;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline when hovered */
+}
+
+
+/* Styling for the "Classes" button */
+.btn-learn-more-registration {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008001;
+    color: #F5F3EC;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Combine transition properties */
+    font-size: 16px;  
+}
+
+.btn-learn-more-reviews:hover {
+    background-color: #9ABC07;
+    color: #008001;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline when hovered */
+}
+
+.reviews-section {
+    padding: 50px 0;
+    padding-bottom: 50px;
+}
+
+.reviews-section h1 {
+    margin-bottom: 30px;
+}
+     
+/* Footer */
+.footer-container {
+  font-family: Fredoka!important;
+  background-color:#008001;
+  padding: 20px 0;
+}
+
+.footer-icon-link {
+  color: #F5F3EC;
+  margin-right: 250px !important;
+}
+
+.footer-logo {
+  width: 50px; /* Adjust logo width as needed */
+  height: auto;
+  margin-right: 10px;
+  padding:10px;
+}
+
+
+.footer-main-text {
+ font-family: Fredoka!important;
+ color: #F5F3EC;
+ font-size: 20px;
+ margin: 0px;
+}
+
+.footer-link {
+  color: #F5F3EC;
+  font-size: 16px;
+  margin-right: 0px;
+}
+
+.footer-link:hover {
+  text-decoration: underline; /* Underline only on hover */
+  color: #9ABC07; 
+}
+
+.footer-main-logo {
+  width: 250px;
+  height: auto;
+}
+
+.footer-link1{
+    margin: -50px;
+    color: #F5F3EC;
+}
+
+.left-column-content {
+    margin-top: 10px; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+
+.mt-md-0 {
+  margin-top: 0 !important; 
+
+@media (max-width: 768px) {
+  .mt-3 {
+    margin-top: 1rem !important;
+  }
+.bg-color2 {
+  background-color: #008001;
+}
+
+.small-container {
+  padding: 10px;
+  z-index: 1; /* Set a higher z-index value */
+}
+  
+.copyright-text {
+  color: #F5F3EC;
+  font-weight: bold;
+  position: relative;
+  z-index: 2; /* Set a higher z-index value than the small container */
+}
+.bg-color2 {
+  background-color: #008001;
+}
+
+.copyright-text {
+  color: #F5F3EC;
+  font-weight: bold;
+}
+
+    /* Custom CSS */
+.bg-custom-green {
+    background-color: #9ABC07;
+}
+
